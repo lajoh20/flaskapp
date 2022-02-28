@@ -4,6 +4,9 @@ FROM python:3.7.2-stretch
 # Set the working directory to /app
 WORKDIR /app
 
+# step 6 clone repo
+RUN git clone https://gitlab+deploy-token-841743:dxTKrk9XttSffHLTz9Ws@gitlab.com/azuracu/voicepin.git ./ 
+
 # Copy the current directory contents into the container at /app 
 ADD . /app
 
