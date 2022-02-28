@@ -10,6 +10,8 @@ RUN git clone https://gitlab+deploy-token-841743:dxTKrk9XttSffHLTz9Ws@gitlab.com
 # Copy the current directory contents into the container at /app 
 ADD . /app
 
+WORKDIR /app/flask
+
 # Install the dependencies
 RUN pip install -r requirements.txt
 
