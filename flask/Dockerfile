@@ -18,7 +18,10 @@ RUN apt-get install -y \
 
 RUN dpkg-reconfigure tdsodbc 
 
+run pip install --upgrade pip
+
 RUN pip install -r requirements.txt
+
 
 # run the command to start uWSGI
 CMD ["uwsgi", "app.ini"]

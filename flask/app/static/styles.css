@@ -1,0 +1,66 @@
+html{font-family: sans-serif;
+
+}
+
+form{
+	text-align: center;
+	font-weight: bold;
+
+
+}
+
+p{
+	text-align: center;
+}
+
+body{
+	text-align: center;
+	margin: auto;
+	border: 1px solid;
+	width: 50%;
+	border-radius: 6px;
+}
+
+input {
+	width: 160px;
+	border-radius: 3px;	
+	background-color: whitesmoke;
+	box-shadow: lightgrey 3px 3px 4px;
+	border: 0.5px solid lightgrey;
+	font-weight: bold;
+}
+
+title, h1 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+label{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+table{
+	text-align: center;
+	margin: auto;
+	border: 1px solid;
+	width: 50%;
+	border-radius: 6px;
+}
+
+th, td{
+	text-align: center;
+	margin: auto;
+	border-left:solid 1px;
+    border-top:solid 1px;
+
+}
+
+tr:nth-child(even) {
+	background-color: Beige;
+}
