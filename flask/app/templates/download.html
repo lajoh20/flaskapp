@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block header %}
+  <h1>{% block title %}Download{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+<p>
+  <a href="{{url_for('download_file(new_filename)')}}">Download</a>
+</p>
+{% endblock %}
